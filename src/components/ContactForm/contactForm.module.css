@@ -1,0 +1,40 @@
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 300px;
+  background-color: #c5e7f0;
+}
+
+.contactName {
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+
+.contactNumber {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  padding: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  width: 150px;
+  align-self: center;
+  background-color: #3c8092;
+  color: #fff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: hsla(193, 47%, 52%, 0.644);
+  color: #000;
+}

@@ -1,0 +1,40 @@
+.btn {
+  display: block;
+  padding: 3px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 2px;
+  background-color: #3c8092;
+  color: #fff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  margin-left: auto;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: hsla(193, 47%, 52%, 0.644);
+  color: #000;
+}
+
+.contactList {
+  padding: 0;
+  margin: 0;
+  width: 330px;
+  margin-left: 50px;
+}
+
+.contactList__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.contactList__item::before {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 5px;
+  background-color: #3c8092;
+  margin-right: 10px;
+}

@@ -5,7 +5,7 @@ export default function Filter({ value, onChange }) {
   return (
     <label className={styles.filter}>
       <span className={styles.label}>Find contacts by name</span>
-      <input type="text" value={value} onChange={onChange}></input>
+      <input type="text" value={value} onChange={e => onChange(e.target.value)}></input>
     </label>
   );
 }
